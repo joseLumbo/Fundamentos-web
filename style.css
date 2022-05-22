@@ -1,0 +1,45 @@
+body{
+    background-color: cornsilk;
+}
+#menu {
+    background-color: red;
+}
+main{
+    background-color:slateblue;
+}
+#menu li a {
+    display: inline;
+    padding: 10px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+#menu li {
+    display: inline;
+    padding: 10px; 
+}
+
+.rodape{
+    width: 50px;
+    height: 50px;
+    padding: 30px;
+    text-align: center;
+}
+#menu li a:hover{
+    color:greenyellow;
+}
+.container{
+    display: flex;
+    flex-flow: row ;
+    justify-content: center;
+    align-items: center;
+}
+.tm-social{
+    width: 50px;
+    height: 50px;  
+}
+.p-30{
+    padding: 30px;
+}
+.imagem1{
+    align-items: center;
+}
