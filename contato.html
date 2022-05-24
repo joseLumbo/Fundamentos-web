@@ -23,11 +23,13 @@
 <main>
     <form onsubmit="enviar()">
         <h4>Nome:</h4>
-        <input type="text" style="width: 400px;" id="nome">
+        <input type="text" style="width: 400px;" id="nome"  onkeyup='ValidaNome()'>
+        <div id=txtNome></div>
         <label for="Email">E-mail:</label>
-        <input type="text" id="e-mail">
+        <input type="Email" id="email" onkeyup='ValidaEmail()'>
+        <div id=txtEmail></div>
         <h4>Deixa Uma Mensagem:</h4>
-        <textarea style="width: 400px;"></textarea>
+        <textarea nome="assunto" id="assunto" style="width: 400px;" onkeyup='ValidaAssunto()'></textarea>
         <input type="submit" value="Enviar">
     </form>  
 </main>     
