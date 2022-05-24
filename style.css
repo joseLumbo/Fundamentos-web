@@ -1,11 +1,14 @@
 body{
-    background-color: cornsilk;
+    font-size: 20px;
 }
 #menu {
-    background-color: red;
+    background-color:  royalblue;
+    color: black;
+    
 }
 main{
-    background-color:slateblue;
+    
+    height: 50vh;
 }
 #menu li a {
     display: inline;
@@ -17,13 +20,6 @@ main{
     display: inline;
     padding: 10px; 
 }
-
-.rodape{
-    width: 50px;
-    height: 50px;
-    padding: 30px;
-    text-align: center;
-}
 #menu li a:hover{
     color:greenyellow;
 }
@@ -32,6 +28,10 @@ main{
     flex-flow: row ;
     justify-content: center;
     align-items: center;
+}
+
+form{
+    background-color:burlywood;
 }
 .tm-social{
     width: 50px;
@@ -43,3 +43,14 @@ main{
 .imagem1{
     align-items: center;
 }
+
+.pagamento {
+    text-align: center;
+}
+.redes{
+    text-align: center;
+}
+.m2{
+    text-align: center;
+}
+

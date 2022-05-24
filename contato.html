@@ -12,30 +12,38 @@
     <ul>
         <li>
             <a href="index.html"><img width=100px src="" alt="">Home</a>
-            <a href="contato.html" style="color:darkgray">Contato</a>
+            <a href="produtos.html">Produtos</a>
+            <a href="contato.html">Contato</a>
         </li>
     </ul>
 </nav>
+<div>
+<button onclick="hello()">Clique em mim</button>
+</div>
 <main>
-    <form>
+    <form onsubmit="enviar()">
         <h4>Nome:</h4>
-        <input type="text" style="width: 400px;">
-        <label for="Email">Email:</label>
-        <input type="text" id="email">
+        <input type="text" style="width: 400px;" id="nome">
+        <label for="Email">E-mail:</label>
+        <input type="text" id="e-mail">
         <h4>Deixa Uma Mensagem:</h4>
         <textarea style="width: 400px;"></textarea>
         <input type="submit" value="Enviar">
     </form>  
 </main>     
-    <p id="Formas_de_pagamento"><b>Formas de pagamento:</b></p>
-        <img class="imagem1" src="img/formasdepagamento.webp" alt="Formas de pagamento"><br> <br>
-        <hr>
-        <footer>
-            <div class="container">
+<div class="container">
+    <footer>
+            <p class="pagamento"><b>Formas de pagamento:</b></p>
+            <img class="imagem1" src="img/formasdepagamento.webp" alt="Formas de pagamento"><br><br>
+            <div class="m2">
+                <p class="redes">Siga as nossas Redes sociais</p> 
                 <img class="tm-social p-20" src="img\face.png" alt="log do facebook">
                 <img class="tm-social" src="img\índice.png" alt="log do linkdin">
-                <img class="tm-social"src="img\inst.png" alt="loh do inst">
+                <img class="tm-social"src="img\inst.png" alt="log do inst"><br>  
             </div>
-        </footer>  
+        </div>
+        
+    </footer>   
+        <script src="script.js"></script>
 </body>
 </html>
